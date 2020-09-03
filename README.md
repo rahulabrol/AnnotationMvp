@@ -5,14 +5,14 @@ AnnotationMvp will automatically create all those interfaces for you.
 
 # How to use AnnotationMvp
 
-AnnotationMvp is an annotation based library.To use this library you need to know about @Model ,@Presentera and @View.
+AnnotationMvp is an annotation based library.To use this library you need to know about @Model ,@Presenter and @View.
 
 Add the annotationMVP module in your gradle folder or include the following code to build.gradle file:
 
 android { 
-    defaultConfig {
-   
-        minSdkVersion 15
+
+    defaultConfig {    
+    minSdkVersion 15
         targetSdkVersion 26
         ..
         .. 
